@@ -9,7 +9,7 @@ export default class Pick extends React.Component {
 		spellId1: 4,
 		spellId2: 6,
 		championId: 0,
-		summonerName: "test",
+		summonerName: "",
 		picking: false,
 		isCompleted: false,
 		pickingText: "Picking"
