@@ -53,7 +53,7 @@ export default class Overlay extends React.Component {
 			redTeamName: "",
 			redTeamSubText: "",
 			pickingText:"Picking",
-			enableTransparent:false,
+			enableTransparent:true,
 		}
 	}
 
