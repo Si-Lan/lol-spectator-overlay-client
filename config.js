@@ -87,8 +87,10 @@ phaseTextColorInput.addEventListener("change", (ev) =>{
 var enableCustomNamesInput = document.getElementById("enable_custom_names")
 var enableTransparent = document.getElementById('enable_transparent')
 
-var blueSummonerNames = document.getElementById("blueSummonerNames").children
-var redSummonerNames = document.getElementById("redSummonerNames").children
+var blueSummonerNames = Array.from(document.getElementById("blueSummonerNames").children)
+var redSummonerNames = Array.from(document.getElementById("redSummonerNames").children)
+blueSummonerNames.shift();
+redSummonerNames.shift();
 var swapNamesButton = document.getElementById("swap")
 swapNamesButton.addEventListener("click", function (){
 
@@ -119,8 +121,8 @@ function applyConfig(config){
 	redTeamSubtext.setAttribute("value", config.redTeamSubText)
 	pickingText.setAttribute("value", config.pickingText)
 
-	enableCustomNamesInput.setAttribute("checked", config.enableCustomNames)
-	enableTransparent.setAttribute("checked", config.enableTransparent)
+	enableCustomNamesInput.checked = config.enableCustomNames
+	enableTransparent.checked = config.enableTransparent
 
 	blueColorHex.innerHTML= "("+config.blueColor+")"
 	redColorHex.innerHTML= "("+config.redColor+")"
