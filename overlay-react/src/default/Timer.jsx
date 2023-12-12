@@ -40,9 +40,10 @@ export default class Timer extends React.Component {
 		let string= ""
 		let mins = Math.floor(time/60)
 		let secs = time%60
-		if(mins>0)
+		if(mins>0) {
 			string+= mins
-		string+=":"
+		  string+=":"
+    }
 		if(secs<10)
 			string+="0"
 		string+=secs
