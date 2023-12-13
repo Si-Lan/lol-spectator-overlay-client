@@ -27,8 +27,8 @@ top: 0;
 bottom: 0;
 left: 0;
 right: 0;
-background-size: 241%;
-background-position: 52% 28%;
+background-size: 220%;
+background-position: 52% 25%;
 opacity: 1;
 }
 
@@ -523,46 +523,298 @@ animation: fadeInLeftAnimation 0.2s,
 
 
 
+.summoner-object-component .summoner-object-wrapper .background[data-id='7'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='7'] {
+   background-position-y: 22%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='8'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='8'] {
+   background-position-y: 23%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='9'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='9'] {
+   background-size: 165%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='10'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='10'] {
+  background-size: 200%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='12'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='12'] {
+  background-position: 58% 27%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='13'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='13'] {
+   background-size: 205%;
+   background-position: 61% 30%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='14'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='14'] {
+   background-position-y: 21%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='15'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='15'] {
+   background-position-y: 21%;
+}
+
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='19'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='19'] {
+   background-size: 170%;
+   background-position-y: 41%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='20'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='20'] {
+   background-position-y: 26%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='25'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='25'] {
+  background-size: 210%; 
+  background-position-y: 24%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='28'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='28'] {
+    background-position-y: 29%;
+    background-size: 165%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='31'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='31'] {
+    background-size: 205%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='33'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='33'] {
+    background-size: 180%;
+    background-position: 66% 28%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='34'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='34'] {
+  background-position-y: 28%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='36'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='36'] {
+    background-size: 205%;
+    background-position-y: 20%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='37'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='37'] {
+   background-position-y: 25%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='38'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='38'] {
+    background-position-y: 21%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='39'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='39'] {
+   background-size: 205%;
+   background-position-y: 21%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='50'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='50'] {
+    background-position-y: 22%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='51'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='51'] {
+    background-size: 190%;
+    background-position-y: 20%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='54'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='54'] {
+    background-size: 210%;
+    background-position-y: 30%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='64'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='64'] {
+   background-position-y: 26%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='74'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='74'] {
+   background-size: 200%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='75'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='75'] {
+  background-position-y: 24%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='78'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='78'] {
+  background-position-y: 24%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='83'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='83'] {
+  background-size: 175%;
+  background-position-y: 24%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='84'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='84'] {
+  background-size: 210%;
+  background-position-y: 23%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='85'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='85'] {
+   background-size: 170%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='96'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='96'] {
+   background-size: 180%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='101'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='101'] {
+   background-position-y: 22%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='105'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='105'] {
+   background-position-y: 21%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='110'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='110'] {
+   background-position-x: 46%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='112'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='112'] {
+   background-position-y: 23%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='114'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='114'] {
+   background-position-y: 18%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='115'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='115'] {
+   background-size: 200%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='120'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='120'] {
+   background-position-y: 20%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='122'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='122'] {
+   background-position-y: 18%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='134'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='134'] {
+   background-position-y: 16%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='136'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='136'] {
+   background-position: 58% 32%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='142'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='142'] {
+   background-size: 166%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='161'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='161'] {
+   background-size: 166%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='164'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='164'] {
+  background-position-y: 28%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='201'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='201'] {
+   background-position-y: 20%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='202'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='202'] {
+   background-position-y: 25%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='221'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='221'] {
+   background-position-y: 25%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='222'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='222'] {
+   background-position-y: 24%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='223'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='223'] {
+   background-size: 180%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='234'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='234'] {
+   background-position-y: 24%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='235'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='235'] {
+   background-position-y: 21%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='236'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='236'] {
+   background-position-y: 23%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='240'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='240'] {
+   background-size: 180%;
+   background-position-y: 26%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='266'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='266'] {
+   background-position-y: 34%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='267'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='267'] {
+   background-position-y: 23%;
+}
 
  .summoner-object-component .summoner-object-wrapper .background[data-id='268'],
  .summoner-object-component .summoner-object-wrapper .old-background[data-id='268'] {
     background-position-y: 24%;
 }
 
- .summoner-object-component .summoner-object-wrapper .background[data-id='122'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='122'] {
-    background-position-y: 18%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='28'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='28'] {
-    background-position-y: 29%;
-    background-size: 165%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='50'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='50'] {
-    background-position-y: 22%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='9'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='9'] {
-    background-size: 165%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='114'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='114'] {
-    background-position-y: 18%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='105'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='105'] {
-    background-position-y: 21%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='74'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='74'] {
-    background-size: 200%;
+.summoner-object-component .summoner-object-wrapper .background[data-id='350'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='350'] {
+   background-size: 200%;
+   background-position-y: 24%;
 }
 
  .summoner-object-component .summoner-object-wrapper .background[data-id='420'],
@@ -570,141 +822,30 @@ animation: fadeInLeftAnimation 0.2s,
     background-position-y: 18%;
 }
 
- .summoner-object-component .summoner-object-wrapper .background[data-id='39'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='39'] {
-    background-size: 320%;
-    background-position-y: 26%;
+.summoner-object-component .summoner-object-wrapper .background[data-id='497'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='497'] {
+   background-position: 49% 21%;
 }
 
- .summoner-object-component .summoner-object-wrapper .background[data-id='222'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='222'] {
-    background-position-y: 24%;
+.summoner-object-component .summoner-object-wrapper .background[data-id='498'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='498'] {
+   background-position: 51% 23%;
 }
 
- .summoner-object-component .summoner-object-wrapper .background[data-id='10'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='10'] {
-    background-position-y: 18%;
+.summoner-object-component .summoner-object-wrapper .background[data-id='711'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='711'] {
+   background-size: 180%;
 }
 
- .summoner-object-component .summoner-object-wrapper .background[data-id='240'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='240'] {
-    background-size: 180%;
-    background-position-y: 26%;
+.summoner-object-component .summoner-object-wrapper .background[data-id='777'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='777'] {
+   background-size: 210%;
+   background-position-y: 21%;
 }
 
- .summoner-object-component .summoner-object-wrapper .background[data-id='96'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='96'] {
-    background-size: 180%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='7'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='7'] {
-    background-position-y: 22%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='64'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='64'] {
-    background-position-y: 26%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='236'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='236'] {
-    background-position-y: 23%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='267'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='267'] {
-    background-position-y: 23%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='20'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='20'] {
-    background-position-y: 18%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='33'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='33'] {
-    background-size: 180%;
-    background-position-x: 67%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='13'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='13'] {
-    background-size: 205%;
-    background-position-x: 61%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='223'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='223'] {
-    background-size: 180%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='112'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='112'] {
-    background-position-y: 23%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='8'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='8'] {
-    background-position-y: 23%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='201'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='201'] {
-    background-position-y: 20%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='106'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='106'] {
-    background-size: 220%;
-    background-position-y: 17%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='19'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='19'] {
-    background-size: 170%;
-    background-position-y: 41%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='101'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='101'] {
-    background-position-y: 22%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='115'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='115'] {
-    background-size: 200%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='83'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='83'] {
-    background-position-y: 19%;
-    background-size: 170%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='85'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='85'] {
-    background-size: 170%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='202'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='202'] {
-    background-position-y: 25%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='110'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='110'] {
-    background-position-x: 46%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='161'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='161'] {
-    background-size: 166%;
-}
-
- .summoner-object-component .summoner-object-wrapper .background[data-id='142'],
- .summoner-object-component .summoner-object-wrapper .old-background[data-id='142'] {
-    background-size: 166%;
+.summoner-object-component .summoner-object-wrapper .background[data-id='875'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='875'] {
+  background-position-y: 23%;
 }
 
 .summoner-object-component .summoner-object-wrapper .background[data-id='887'],
@@ -713,18 +854,19 @@ animation: fadeInLeftAnimation 0.2s,
    background-position-y: 20%;
 }
 
-.summoner-object-component .summoner-object-wrapper .background[data-id='711'],
-.summoner-object-component .summoner-object-wrapper .old-background[data-id='711'] {
-   background-size: 180%;
-}
-
-.summoner-object-component .summoner-object-wrapper .background[data-id='221'],
-.summoner-object-component .summoner-object-wrapper .old-background[data-id='221'] {
-   background-position-y: 25%;
-}
-
 .summoner-object-component .summoner-object-wrapper .background[data-id='888'],
 .summoner-object-component .summoner-object-wrapper .old-background[data-id='888'] {
    background-size: 200%;
    background-position-y: 20%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='910'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='910'] {
+   background-position-y: 21%;
+}
+
+.summoner-object-component .summoner-object-wrapper .background[data-id='950'],
+.summoner-object-component .summoner-object-wrapper .old-background[data-id='950'] {
+  background-size: 190%;
+  background-position: 48% 33%;
 }

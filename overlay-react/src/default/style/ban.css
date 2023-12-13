@@ -48,7 +48,7 @@
 .ban {
     width: 105px;
     height: 99px;
-    background-size: 431px;
+    background-size: 410px;
     background-position-x: 51%;
     background-position-y: 27%;
     margin-right: 2px;
@@ -146,10 +146,15 @@
 
 
 
-#blueBans .ban[data-id='115'],
-#redBans .ban[data-id='115'] {
-   background-position-x: 46%;
-   background-position-y: 33%;
+#blueBans .ban[data-id='13'],
+#redBans .ban[data-id='13'] {
+   background-position-x: 63%;
+   background-position-y: 38%;
+}
+
+#blueBans .ban[data-id='15'],
+#redBans .ban[data-id='15'] {
+   background-position-y: 20%;
 }
 
 #blueBans .ban[data-id='19'],
@@ -158,31 +163,9 @@
    background-position-y: 50%;
 }
 
-#blueBans .ban[data-id='106'],
-#redBans .ban[data-id='106'] {
-   background-position-y: 20%;
-}
-
-#blueBans .ban[data-id='161'],
-#redBans .ban[data-id='161'] {
-   background-position-x: 47%;
-   background-size: 295px;
-}
-
-#blueBans .ban[data-id='44'],
-#redBans .ban[data-id='44'] {
-   background-position-x: 60%;
-}
-
-#blueBans .ban[data-id='223'],
-#redBans .ban[data-id='223'] {
-   background-size: 300px;
-}
-
-#blueBans .ban[data-id='13'],
-#redBans .ban[data-id='13'] {
-   background-position-x: 63%;
-   background-position-y: 38%;
+#blueBans .ban[data-id='28'],
+#redBans .ban[data-id='28'] {
+   background-position-y: 22%;
 }
 
 #blueBans .ban[data-id='33'],
@@ -192,24 +175,14 @@
    background-position-y: 35%;
 }
 
-#blueBans .ban[data-id='75'],
-#redBans .ban[data-id='75'] {
-   background-size: 597px;
+#blueBans .ban[data-id='34'],
+#redBans .ban[data-id='34'] {
+   background-position-y: 36%;
 }
 
-#blueBans .ban[data-id='96'],
-#redBans .ban[data-id='96'] {
-   background-size: 300px;
-}
-
-#blueBans .ban[data-id='240'],
-#redBans .ban[data-id='240'] {
-   background-size: 300px;
-}
-
-#blueBans .ban[data-id='85'],
-#redBans .ban[data-id='85'] {
-   background-size: 321px;
+#blueBans .ban[data-id='44'],
+#redBans .ban[data-id='44'] {
+   background-position-x: 60%;
 }
 
 #blueBans .ban[data-id='74'],
@@ -217,9 +190,30 @@
    background-size: 350px;
 }
 
-#blueBans .ban[data-id='28'],
-#redBans .ban[data-id='28'] {
-   background-position-y: 22%;
+#blueBans .ban[data-id='75'],
+#redBans .ban[data-id='75'] {
+   background-size: 597px;
+}
+
+#blueBans .ban[data-id='85'],
+#redBans .ban[data-id='85'] {
+   background-size: 321px;
+}
+
+#blueBans .ban[data-id='96'],
+#redBans .ban[data-id='96'] {
+   background-size: 300px;
+}
+
+#blueBans .ban[data-id='106'],
+#redBans .ban[data-id='106'] {
+   background-position-x: 47%;
+}
+
+#blueBans .ban[data-id='115'],
+#redBans .ban[data-id='115'] {
+   background-position-x: 46%;
+   background-position-y: 33%;
 }
 
 #blueBans .ban[data-id='122'],
@@ -234,18 +228,35 @@
    background-position-y: 40%;
 }
 
-#blueBans .ban[data-id='34'],
-#redBans .ban[data-id='34'] {
-   background-position-y: 36%;
-}
-
 #blueBans .ban[data-id='142'],
 #redBans .ban[data-id='142'] {
    background-size: 300px;
 }
 
+#blueBans .ban[data-id='161'],
+#redBans .ban[data-id='161'] {
+   background-position-x: 47%;
+   background-size: 295px;
+}
+
+#blueBans .ban[data-id='223'],
+#redBans .ban[data-id='223'] {
+   background-size: 300px;
+}
+
+#blueBans .ban[data-id='240'],
+#redBans .ban[data-id='240'] {
+   background-size: 300px;
+}
+
 #blueBans .ban[data-id='887'],
 #redBans .ban[data-id='887'] {
-   background-size: 550px;
-   background-position-y: 10%;
+   background-size: 500px;
+   background-position-y: 18%;
+}
+
+#blueBans .ban[data-id='950'],
+#redBans .ban[data-id='950'] {
+    background-size: 350px;
+    background-position: 40% 31%;
 }
