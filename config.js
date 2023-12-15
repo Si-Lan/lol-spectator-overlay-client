@@ -86,6 +86,7 @@ phaseTextColorInput.addEventListener("change", (ev) =>{
 
 var enableCustomNamesInput = document.getElementById("enable_custom_names")
 var enableTransparent = document.getElementById('enable_transparent')
+var hideBanIcons = document.getElementById('hide_ban_icons')
 
 var blueSummonerNames = Array.from(document.getElementById("blueSummonerNames").children)
 var redSummonerNames = Array.from(document.getElementById("redSummonerNames").children)
@@ -123,6 +124,7 @@ function applyConfig(config){
 
 	enableCustomNamesInput.checked = config.enableCustomNames
 	enableTransparent.checked = config.enableTransparent
+	hideBanIcons.checked = config.hideBanIcons
 
 	blueColorHex.innerHTML= "("+config.blueColor+")"
 	redColorHex.innerHTML= "("+config.redColor+")"
@@ -153,7 +155,8 @@ updateButton.addEventListener("click",function (){
 		redTeamName: redTeamName.value,
 		redTeamSubText: redTeamSubtext.value,
 		pickingText: pickingText.value,
-		enableTransparent: enableTransparent.checked
+		enableTransparent: enableTransparent.checked,
+		hideBanIcons: hideBanIcons.checked
 	});
 });
 

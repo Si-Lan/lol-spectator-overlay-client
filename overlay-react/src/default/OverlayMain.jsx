@@ -54,6 +54,7 @@ export default class Overlay extends React.Component {
 			redTeamSubText: "",
 			pickingText:"Picking",
 			enableTransparent:true,
+			hideBanIcons:false,
 		}
 	}
 
@@ -119,12 +120,12 @@ export default class Overlay extends React.Component {
 
 		if (this.state.blueBans) {
 			blueBans = this.state.blueBans.map((ban, index) => (
-				<Ban key={"ban-" + index} {...ban} />
+				<Ban key={"ban-" + index} {...ban} hideBanIcons={this.config.hideBanIcons} />
 			));
 		}
 		if (this.state.redBans) {
 			redBans = this.state.redBans.map((ban, index) => (
-				<Ban key={"ban-" + index} {...ban} />
+				<Ban key={"ban-" + index} {...ban} hideBanIcons={this.config.hideBanIcons} />
 			));
 		}
 

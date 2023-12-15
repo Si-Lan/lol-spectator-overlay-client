@@ -18,6 +18,8 @@ export default class Ban extends React.Component {
 			ban = <div className="ban" ></div>
 		}
 
+		let iconStyle = (this.props.hideBanIcons) ? {display: 'none'} : {};
+
 		return (
 			<div className={cx("ban-wrapper", { "active": this.props.isActive, "completed": this.props.isCompleted })}>
 				<div className="ban-background">
@@ -25,7 +27,7 @@ export default class Ban extends React.Component {
 						{ban}
 					</div>
 				</div>
-				<div className="ban-icon"></div>
+				<div className="ban-icon" style={iconStyle}></div>
 			</div>
 		)
 	}
